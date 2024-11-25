@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+}
+.container{
+    padding-bottom: 100%;
+}
+button{
+    padding: 15px 25px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:larger;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 360px;
+    
+}
+button:hover{
+    background-color: hsl(234, 26%, 15%);
+} 
+.fs-40{
+    font-size: 45px;
+    padding: 30px 24px 30px 24px;
+}
+ul {
+    list-style-image: url(./assets/images/icon-list.svg) ;
+  }
+.fs-28{
+    font-size: 1.1rem;
+}
+label{
+    color: hsl(234, 29%, 20%);
+    padding-top: 24px;
+    padding-left: 24px;
+}
+.input-group{
+    padding-left: 24px;
+    width: 385px;
+    height: 50px;
+}
+.ventana{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+}
+.mostrar-ventana{
+    opacity: 1;
+    pointer-events: unset;
+}
+.modal-container{
+    margin: 150px 0px 0px 24px;
+}
+.btn-2{
+    margin-top: 300px;
+}
