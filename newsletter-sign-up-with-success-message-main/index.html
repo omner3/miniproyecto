@@ -18,13 +18,13 @@
 </head>
 
 <body>
-  <div class="container bg-white p-md-3 ">
+  <div class="container bg-white p-md-3 d-md-flex justify-content-md-center align-items-md-center rounded flex-md-row-reverse">
     <div class="position-relative">
       <img src="./assets/images/illustration-sign-up-mobile.svg" alt="sign up illustration " class="w-100 d-md-none">
-      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="sign up illustration" class="w-50 d-none d-md-flex">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="sign up illustration" class="w-50 d-none d-md-flex " id="deskIMG">
     </div>
     <!-- Sign-up form start -->
-    <div class="">
+    <div id="card-body">
       <h1 class="fs-40">
         Stay updated!
       </h1>
@@ -39,10 +39,10 @@
         </ul>
       </div>
       <label for="basic-url" class="">Email address</label>
-      <div class="input-group">
-        <input type="email" class="form-control" id="basic-url" placeholder="email@company.com">
+      <div class="input-group ">
+        <input type="email" class="form-control" id="user-email" name="userEmail" placeholder="email@company.com">
       </div>
-      <button type="" class="subscribe">
+      <button type="" class="subscribe" onclick="return validateEmail()">
         Subscribe to monthly newsletter
       </button>
     </div>
@@ -53,7 +53,7 @@
         <img src="./assets/images/icon-success.svg" alt="sucess icon">
         <h2 class="p-1 mt-4 fs-40">Thanks for subscribing!</h2>
         <p class="mt-4 fs-28">A confirmation email has been sent to <strong>ash@loremcompany.com.</strong>
-          Please open it and <br> click the button inside to confirm your <br> subscription.</p>
+          Please open it and click the button inside to confirm your subscription.</p>
         <button class="btn-2 mx-0 cerrar-ventana">Dismiss message</button>
       </div>
     </section>
