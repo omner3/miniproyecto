@@ -70,11 +70,4 @@ label{
         max-width: 800px;
         margin-top: 10%;
     }
-    #card-body, #deskIMG{
-        width: 50%;
-    }
-    #deskIMG {
-        height: 90%;
-        object-fit: contain;
-      }
 }
